@@ -29,12 +29,11 @@ app.post("/", function(req, res){
       res.write("<h1><center>The temprature in "+ query + " is " + temp + " deg. C</center></h1>")
       res.write("<h3><center>The weather is currently " + weatherDiscription + "</center></h3>")
       res.write("<center><img src=" + imageURL +"></center>");
-      res.send()
-      console.log(response.statusCode);
+      res.send();
     })
   })
 })
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(3000, function() {
   console.log("Server is running at 3000");
 });
