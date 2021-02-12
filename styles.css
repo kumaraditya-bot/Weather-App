@@ -1,9 +1,10 @@
-body {
-  height: 100%;
-}
+
 
 body {
-  padding-top: 300px;
-  padding-bottom: 300px;
-  background-color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
 }
